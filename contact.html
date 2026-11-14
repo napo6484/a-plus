@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Moses Kwasi Sikah</title>
+    <meta name="description" content="Contact Moses Kwasi Sikah.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container bar">
+            <a class="brand" href="index.html">Moses Kwasi Sikah</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="section">
+            <div class="container narrow">
+                <h1>Contact me</h1>
+                <p class="lead">Have a project or a job in mind? Send a message below or reach out directly.</p>
+                <div class="contact-details card">
+                    <p><strong>Email:</strong> <a href="mailto:napo.6484@gmail.com">napo.6484@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+233542337979">+233 542 337 979</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/moses-kwasi-sikah-2846bb404" target="_blank" rel="noopener">moses-kwasi-sikah</a></p>
+                </div>
+                <form id="contact-form" novalidate>
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+                        <p class="error" id="name-error" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+                        <p class="error" id="email-error" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+                        <p class="error" id="message-error" role="alert"></p>
+                    </div>
+                    <button class="btn" type="submit">Send message</button>
+                    <p id="form-status" role="status"></p>
+                </form>
+                <p class="find-me">
+                    Find me on <a href="https://github.com/napo6484" target="_blank" rel="noopener">GitHub</a> and <a href="https://www.linkedin.com/in/moses-kwasi-sikah-2846bb404" target="_blank" rel="noopener">LinkedIn</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Moses Kwasi Sikah</p>
+            <p><a href="https://github.com/napo6484" target="_blank" rel="noopener">GitHub profile</a></p>
+        </div>
+    </footer>
+</body>
+</html>
